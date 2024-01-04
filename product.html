@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <!--Responsive Nav Bar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+        </svg>
+        
+      </nav>
+      <!--Products-->
+      <section class="text-center">
+        <h1 class="text-3xl font-bold m-3">Our Products</h1>
+        <input type="text" style="width: 60%" class=" p-3 m-5 border border-black" placeholder="Search for a product" >
+        <div class="grid grid-cols-2 gap-5 md:grid-cols-4 "> 
+          <div>
+            <img src="images/bestseller_1.jpg"  class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Rose Plant</h1>
+            <p>$20</p>
+          </div>
+          <div>
+            <img src="images/bestseller_2.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Lilly Plant</h1>
+            <p>$30</p>
+          </div>
+          <div>
+            <img src="images/bestseller_3.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Snake Plant</h1>
+            <p>$25</p>
+          </div>
+          <div>
+            <img src="images/bestseller_4.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Spider Plant</h1>
+            <p>$40</p>
+          </div>
+          <div>
+            <img src="images/product5.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Echeveria Plant</h1>
+            <p>$50</p>
+          </div>
+          <div>
+            <img src="images/product6.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Green vine Plant</h1>
+            <p>$40</p>
+          </div>
+          <div>
+            <img src="images/product7.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Pink Pleated Plant</h1>
+            <p>$70</p>
+          </div>
+          <div>
+            <img src="images/product8.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+            <h1>Cactus Plant</h1>
+            <p>$70</p>
+          </div>
+        </div>
+
+      </section>
+      <!--Footer-->
+<section class="bg-green-100  m-3">
+  <h1 class="font-bold text-3xl p-1 m-3">Greenden</h1>
+  <p class="p-1 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eos.</p>
+  <p class="p-1">&copy 2021 Greenden.com</p>
+</section>
+      
+</body>
+</html>

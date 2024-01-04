@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenden</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Responsive Navbar-->
+  <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+    <h1 class="text-2xl">Greenden</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="w-6 h-6 md:hidden">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+
+    <ul class="flex gap-5 text-gray-600 hidden  md:flex">
+      <li>
+        <a class="hover:underline hover:text-black" href="">Home</a>
+      </li>
+      <li>
+        <a class="hover:underline  hover:text-black" href="product.html">Products</a>
+      </li>
+      <li>
+        <a class="hover:underline  hover:text-black" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!--Header Section-->
+
+  <section class="bg-green-100 p-4 flex justify-center md:justify-evenly  ">
+    <div>
+      <p class="mb-2">We offer you s wide range of Artificial and Natural Flowers</p>
+      <h2 class="font-bold text-3xl mb-5">Plant for your Interior</h2>
+
+      <div>
+        <button class="bg-black rounded p-2 text-white">Shop Now</button>
+        <button class="border border-black rounded p-2">Watch Video</button>
+      </div>
+      <p class="mt-5">160+ Plant species | 100+ Clients</p>
+    </div>
+    <div>
+      <img class="hidden md:block ml-3p-3 w-80 rounded-2xl  " src="images/plant-pot.jpg">
+    </div>
+  </section>
+  <!--About Section-->
+  <section class="text-center ">
+    <h1 class="text-3xl font-bold mt-5">About Us</h1>
+    <p>This site for those who admire the beauty and harmony of nature </p>
+  
+  <div class="md:flex  text-center">
+    <div class="border border-black p-4 m-6  ">
+      <h2 class="text-xl text-center mb-1">Large Assortment</h2>
+      <img src="images/large_assortment (2).png" alt="" class=" h-20 w-20 inline">
+
+      <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, tempora error. Sit at dolores
+        placeat eum
+        excepturi sed ullam est aut iste pariatur similique rerum corporis aliquam cupiditate vitae molestiae nisi
+        suscipit sequi eligendi adipisci, dolore, ratione deserunt dolorum assumenda. Quidem voluptatibus qui laboriosam
+        impedit, error ducimus quasi itaque doloremque quibusdam numquam commodi cupiditate, exercitationem vero rem
+        similique, expedita nam vel. Adipisci amet minima aperiam accusamus reprehenderit iure tempore ex saepe maxime
+        sed. Officiis, perspiciatis.</p>
+    </div>
+    <div class="border border-black p-2 m-6 ">
+      <h2 class="text-xl text-center mb-1">Free and Fast Shipping</h2>
+      <img src="images/fast-delivery.png" alt="" class=" h-20 w-20 inline">
+
+      <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, tempora error. Sit at dolores
+        placeat eum
+        excepturi sed ullam est aut iste pariatur similique rerum corporis aliquam cupiditate vitae molestiae nisi
+        suscipit sequi eligendi adipisci, dolore, ratione deserunt dolorum assumenda. Quidem voluptatibus qui laboriosam
+        impedit, error ducimus quasi itaque doloremque quibusdam numquam commodi cupiditate, exercitationem vero rem
+        similique, expedita nam vel. Adipisci amet minima aperiam accusamus reprehenderit iure tempore ex saepe maxime
+        sed. Officiis, perspiciatis.</p>
+    </div>
+    <div class="border border-black p-2 m-6 ">
+      <h2 class="text-xl text-center mb-1">24/7 Support</h2>
+      <img src="images/24-hours.png" alt="" class=" h-20 w-20 inline">
+
+      <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, tempora error. Sit at dolores
+        placeat eum
+        excepturi sed ullam est aut iste pariatur similique rerum corporis aliquam cupiditate vitae molestiae nisi
+        suscipit sequi eligendi adipisci, dolore, ratione deserunt dolorum assumenda. Quidem voluptatibus qui laboriosam
+        impedit, error ducimus quasi itaque doloremque quibusdam numquam commodi cupiditate, exercitationem vero rem
+        similique, expedita nam vel. Adipisci amet minima aperiam accusamus reprehenderit iure tempore ex saepe maxime
+        sed. Officiis, perspiciatis.</p>
+    </div>
+  </div>
+  </section>
+  <!--Best Seller-->
+<section class="p-4 text-center">
+<h1 class="text-3xl font-bold mb-5 mt-5">Best Sellers</h1>
+<div class="grid grid-cols-2 gap-5 md:grid-cols-4 ">
+  <div>
+    <img src="images/bestseller_1.jpg"  class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+    <h1>Rose Plant</h1>
+    <p>$20</p>
+  </div>
+  <div>
+    <img src="images/bestseller_2.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+    <h1>Lilly Plant</h1>
+    <p>$30</p>
+  </div>
+  <div>
+    <img src="images/bestseller_3.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+    <h1>Snake Plant</h1>
+    <p>$25</p>
+  </div>
+  <div>
+    <img src="images/bestseller_4.png" class="inline  hover:shadow-xl transform hover:-translate-y-2" alt="">
+    <h1>Spider Plant</h1>
+    <p>$40</p>
+  </div>
+</div>
+</section>
+<!--Customer Reviews-->
+<section>
+  <h1 class="font-bold text-3xl text-center">Customer Reviews</h1>
+  <div class="bg-green-900  m-5 p-4 rounded-md " >
+<p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis impedit, provident eligendi eius ab ipsum nam natus, consectetur qui minima et ducimus, itaque hic. Dolorem perferendis perspiciatis similique pariatur ab esse, distinctio, aspernatur odit sint alias numquam cum. Delectus possimus vero quis, deserunt perferendis repellendus rem accusamus exercitationem officiis voluptas error necessitatibus facere? Quas saepe placeat temporibus ullam optio, officia ratione. Praesentium, pariatur? Molestiae reprehenderit, adipisci excepturi molestias expedita facere aperiam repellendus libero sit quis quasi magnam mollitia culpa atque temporibus amet corrupti repudiandae est voluptatem ut, officiis vitae! Quis ipsum harum facere illum labore. Minus officia consequatur et!</p>
+<p class="text-yellow-300 mt-1">Genny Mathew</p>
+</div>
+<div class="bg-green-900  m-5 p-4 rounded-md"  >
+  <p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis impedit, provident eligendi eius ab ipsum nam natus, consectetur qui minima et ducimus, itaque hic. Dolorem perferendis perspiciatis similique pariatur ab esse, distinctio, aspernatur odit sint alias numquam cum. Delectus possimus vero quis, deserunt perferendis repellendus rem accusamus exercitationem officiis voluptas error necessitatibus facere? Quas saepe placeat temporibus ullam optio, officia ratione. Praesentium, pariatur? Molestiae reprehenderit, adipisci excepturi molestias expedita facere aperiam repellendus libero sit quis quasi magnam mollitia culpa atque temporibus amet corrupti repudiandae est voluptatem ut, officiis vitae! Quis ipsum harum facere illum labore. Minus officia consequatur et!</p>
+  <p class="text-yellow-300 mt-1">Jim</p>
+  </div>
+  <div class="bg-green-900  m-5 p-4 rounded-md" >
+    <p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis impedit, provident eligendi eius ab ipsum nam natus, consectetur qui minima et ducimus, itaque hic. Dolorem perferendis perspiciatis similique pariatur ab esse, distinctio, aspernatur odit sint alias numquam cum. Delectus possimus vero quis, deserunt perferendis repellendus rem accusamus exercitationem officiis voluptas error necessitatibus facere? Quas saepe placeat temporibus ullam optio, officia ratione. Praesentium, pariatur? Molestiae reprehenderit, adipisci excepturi molestias expedita facere aperiam repellendus libero sit quis quasi magnam mollitia culpa atque temporibus amet corrupti repudiandae est voluptatem ut, officiis vitae! Quis ipsum harum facere illum labore. Minus officia consequatur et!</p>
+    <p class="text-yellow-300 mt-1">Amir</p>
+    </div>
+</section>
+<!--News Letter-->
+<section class="text-center gap-3">
+  <div class="gap-3">
+    <h1 class="font-bold text-3xl mb-3">Join Our News Letter</h1>
+    <p>Signup for our Email Newspaper to get exclusive discounts,Updates and more</p>
+    <input class=" border border-black p-3 m-3" style="width: 80%;" type="text">
+    <br>
+    <button class="bg-black text-white w-32 p-3 m-2 rounded-sm underline">Subscribe</button>
+  
+</section>
+<!--Footer-->
+<section class="bg-green-100 p-1">
+  <h1 class="font-bold text-3xl p-1 m-3">Greenden</h1>
+  <p class="p-1 m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eos.</p>
+  <p class="p-1">&copy 2021 Greenden.com</p>
+</section>
+</body>
+
+</html>
